@@ -1,3 +1,4 @@
+/*Style all used images properly*/
 .memory .card-no-0,
 .memory .card-no-1,
 .memory .card-no-2,
@@ -6,45 +7,75 @@
 .memory .card-no-5,
 .memory .card-no-6,
 .memory .card-no-7,
+/*To style more pairs add the following selectors
+.memory . card-no-8,
+.memory . card-no-9,
+.memory . card-no-10,
+and so on
+*/
 .memory .back {
-    width: 32px;
-    height: 32px;
     display: inline-block;
     float: left;
     background-repeat: no-repeat;
     margin: 2px;
     border-radius: 2px;
-    background-size: 32px 32px; /*make sure background has the same size as the element (div)*/
+    /*preferably scale images to the width and height choosen below*/
+    width: 32px;
+    height: 32px;
+    /*resize background image to the size of the div.*/
+    background-size: 32px 32px; /*have to bee the same as width and height above*/
 }
+/*wrapper div containing the image divs*/
 .memory > div {
-    /*overflow: auto;*/
-    width: 160px;
+    /*set width to (number of cards per row) * (image width) +
+    (left and right image margin) * (number of images)
+    with values:
+    4 * 32 + (2 + 2) * 4 */
+    width: 144px;
 }
-
+/*image pair number 1*/
 .memory .card-no-0 {
     background-image: url("http://dbwebb.se/img/tiles/wall/brick_brown-vines1.png");
 }
+/*image pair number 2*/
 .memory .card-no-1 {
     background-image: url("http://dbwebb.se/img/tiles/floor/floor_sand_stone0.png");
 }
+/*image pair number 3*/
 .memory .card-no-2 {
     background-image: url("http://dbwebb.se/img/tiles/floor/grass0.png");
 }
+/*image pair number 4*/
 .memory .card-no-3 {
     background-image: url("http://dbwebb.se/img/tiles/passage/dngn_open_door.png");
 }
+/*image pair number 5*/
 .memory .card-no-4 {
     background-image: url("http://dbwebb.se/img/tiles/passage/dngn_closed_door.png");
 }
+/*image pair number 6*/
 .memory .card-no-5 {
     background-image: url("http://dbwebb.se/img/tiles/wall/dngn_green_crystal_wall.png");
 }
+/*image pair number 7*/
 .memory .card-no-6 {
     background-image: url("http://dbwebb.se/img/tiles/wall/crystal_wall04.png");
 }
+/*image pair number 8*/
 .memory .card-no-7 {
     background-image: url("http://dbwebb.se/img/tiles/wall/crystal_wall06.png");
 }
+/*
+To have more pairs add background images to the following selectors
+.memory . card-no-8
+.memory . card-no-9
+.memory . card-no-10
+and so on
+
+And remember to add selectors at the top of the file.
+*/
+
+/*background image*/
 .memory .back {
     background-image: url("http://dbwebb.se/img/tiles/floor/grass_ne.png");
 
