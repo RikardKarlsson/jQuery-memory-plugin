@@ -53,7 +53,7 @@ to the same folder as the plugin. The file content is diplayed below.
 
 To change the number of pairs used change the number 8 to the desired number of pairs.
 
-###4. Add JavaScripts to tha HTML file.
+###4. Add JavaScripts to the HTML file.
 Place the script tags emidiately before the body end tag. The first line below adds jQuery from Google. The second line adds the memory plugin JavaScript. The third line adds the script that adds the memory to all tags with a class named memory.
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
