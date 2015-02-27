@@ -1,0 +1,52 @@
+.memory .card-no-0,
+.memory .card-no-1,
+.memory .card-no-2,
+.memory .card-no-3,
+.memory .card-no-4,
+.memory .card-no-5,
+.memory .card-no-6,
+.memory .card-no-7,
+.memory .back {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    margin: 2px;
+    border-radius: 2px;
+    background-size: 32px 32px; /*make sure background has the same size as the element (div)*/
+}
+.memory > div {
+    /*overflow: auto;*/
+    width: 160px;
+}
+
+.memory .card-no-0 {
+    background-image: url("http://dbwebb.se/img/tiles/wall/brick_brown-vines1.png");
+}
+.memory .card-no-1 {
+    background-image: url("http://dbwebb.se/img/tiles/floor/floor_sand_stone0.png");
+}
+.memory .card-no-2 {
+    background-image: url("http://dbwebb.se/img/tiles/floor/grass0.png");
+}
+.memory .card-no-3 {
+    background-image: url("http://dbwebb.se/img/tiles/passage/dngn_open_door.png");
+}
+.memory .card-no-4 {
+    background-image: url("http://dbwebb.se/img/tiles/passage/dngn_closed_door.png");
+}
+.memory .card-no-5 {
+    background-image: url("http://dbwebb.se/img/tiles/wall/dngn_green_crystal_wall.png");
+}
+.memory .card-no-6 {
+    background-image: url("http://dbwebb.se/img/tiles/wall/crystal_wall04.png");
+}
+.memory .card-no-7 {
+    background-image: url("http://dbwebb.se/img/tiles/wall/crystal_wall06.png");
+}
+.memory .back {
+    background-image: url("http://dbwebb.se/img/tiles/floor/grass_ne.png");
+
+}
+
